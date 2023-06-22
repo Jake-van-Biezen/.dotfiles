@@ -25,16 +25,16 @@ lvim.builtin.breadcrumbs.active = true
 -- close nvimtree when opening a file
 lvim.builtin.nvimtree.setup.actions.open_file.quit_on_open = true
 
-reload "user.plugins"
-reload "user.options"
-reload "user.keymaps"
-reload "user.autocommands"
-reload "user.lsp"
-reload "user.treesitter"
-reload "user.copilot"
-reload "user.telescope"
-reload "user.fidget"
-reload "user.whichkey"
-reload "user.inlay-hints"
-reload "user.functions"
-reload "user.zen-mode"
+reload("user.plugins")
+reload("user.options")
+reload("user.keymaps")
+reload("user.autocommands")
+reload("user.lsp")
+reload("user.treesitter")
+-- reload "user.copilot"
+reload("user.telescope")
+reload("user.fidget")
+reload("user.whichkey")
+reload("user.inlay-hints")
+reload("user.functions")
+reload("user.zen-mode")
